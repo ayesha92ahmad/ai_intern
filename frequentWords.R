@@ -1,14 +1,14 @@
----
-title: "Intern evaluation"
-author: "Ayesha Ahmad"
-date: "04/10/2017"
+#---
+#title: "Intern evaluation"
+#author: "Ayesha Ahmad"
+#date: "04/10/2017"
 
----
+#---
 ##Install Packages
 ##install.packages("tm")
 ##install.packages("SnowballC")
 ##install.packages("wordcloud")
-
+##install.packages("RColorBrewer")
 library(readr)
 library("tm")
 library("SnowballC")
@@ -16,7 +16,6 @@ library("wordcloud")
 library("RColorBrewer")
 library(tm)
 library(tidyverse)
-library(wordcloud)
 #read the data set
 movie_data <- read_csv("./movie_data.csv")
 #convert the dataset summary to corpus

@@ -1,12 +1,11 @@
----
-title: "Intern evaluation"
-author: "Ayesha Ahmad"
-date: "04/10/2017"
+#---
+#title: "Intern evaluation"
+#author: "Ayesha Ahmad"
+#date: "04/10/2017"
 
----
+#---
 ##Install Packages
 
-##install.packages("tm")
 ##install.packages("readr")
 ##install.packages("magrittr")
 ##install.packages("tidyr")
